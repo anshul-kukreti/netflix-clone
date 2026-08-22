@@ -1,0 +1,114 @@
+.header {
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: auto;
+
+    padding: 24px 48px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.netflix-logo {
+    width: 148px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.s .language {
+    height: 36px;
+    padding: 0 14px;
+
+    font-family: 'Times New Roman', Times, serif;
+    background: rgba(0, 0, 0, .6);
+
+    color: white;
+    border: 1px solid rgba(255, 255, 255, .5);
+
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.sign-in {
+    height: 32px;
+    padding: 0 16px;
+
+    background: #e50914;
+    color: white;
+
+    border: none;
+    border-radius: 4px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: .2s;
+}
+
+.sign-in:hover {
+    background: #c11119;
+}
+
+@media (max-width:768px) {
+
+    .header-container {
+        padding: 20px 18px;
+    }
+
+    .netflix-logo {
+        width: 90px;
+    }
+
+    .language {
+        height: 32px;
+        font-size: 13px;
+        padding: 0 10px;
+    }
+
+    .sign-in {
+        height: 32px;
+        padding: 0 12px;
+        font-size: 13px;
+    }
+
+    .header-right {
+        gap: 8px;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .header-container {
+        padding: 16px;
+    }
+
+    .netflix-logo {
+        width: 80px;
+    }
+
+    .language {
+        width: 110px;
+        font-size: 12px;
+    }
+
+    .sign-in {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+}
