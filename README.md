@@ -13,7 +13,7 @@ A responsive Netflix homepage clone built with HTML and CSS, featuring a modern 
 
 🖼️ Preview
 
-"Netflix Clone Preview" (./netflix-preview.png)  
+<img src="./netflix-preview.png" alt="Netflix Clone Preview"> 
 
 🛠️ Technologies Used
 
