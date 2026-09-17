@@ -11,6 +11,10 @@ A responsive Netflix homepage clone built with HTML and CSS, featuring a modern 
 - Clean and modern UI
 - Built using pure HTML and CSS
 
+  🖼️ Preview
+
+"Netflix Clone Preview" (netflix-preview.png)
+
 🛠️ Technologies Used
 
 - HTML5
