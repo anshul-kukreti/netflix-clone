@@ -1,23 +1,44 @@
-Netflix Clone 🎬
+Netflix UI Clone 🎬
 
-A responsive Netflix homepage clone built with HTML and CSS, featuring a modern layout, navigation bar, movie sections, and a clean streaming-platform UI.
+A responsive Netflix-inspired UI clone built with HTML and CSS as a personal frontend portfolio project.
+
+«Note: This is a personal demo project created for learning and portfolio purposes. It is not affiliated with, operated by, or connected to Netflix.»
 
 ✨ Features
-- Frontend Portfolio / Demo Project
-- Responsive homepage
-- Hero/banner section
-- Movie and content sections
+
+- Responsive frontend design
+- Netflix-inspired hero section
+- Trending content section
+- Reasons section
+- FAQ section
+- Responsive navigation
+- Mobile, tablet, and desktop layouts
 - Clean and modern UI
-- Built using pure HTML and CSS
+- Demo-only interactive elements
 
 🖼️ Preview
 
-<img src="./netflix-preview.png" alt="Netflix Clone Preview"> 
+"Netflix UI Clone Preview" (netflix-preview.png)
 
 🛠️ Technologies Used
 
 - HTML5
 - CSS3
+
+📁 Project Structure
+
+netflix-clone/
+│
+├── index.html
+├── Styles/
+│   ├── general.css
+│   ├── header.css
+│   ├── hero.css
+│   ├── main.css
+│   └── footer.css
+│
+├── logo/
+└── netflix-preview.png
 
 🚀 How to Run
 
@@ -27,8 +48,6 @@ A responsive Netflix homepage clone built with HTML and CSS, featuring a modern 
 
 📌 Project Status
 
-Completed frontend clone project.
-
----
+Completed frontend portfolio demo.
 
 Built with HTML & CSS 💻
