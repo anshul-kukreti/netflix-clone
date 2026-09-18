@@ -1,126 +1,109 @@
 .header {
-    position: absolute;
-    top: 36px;
-    left: 0;
-    width: 100%;
-    z-index: 100;
+  position: absolute;
+  top: 36px;
+
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .header-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 24px 48px;
+  max-width: 1200px;
+  margin: auto;
+ 
+  padding: 24px 48px;
+  display: flex;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
-
-/* LOGO */
 
 .Logo {
-    font-size: 34px;
-    font-weight: 900;
-    color: #e50914;
+  font-size: 34px;
+  font-weight: 900;
+  color: #e50914;
 }
 
-
-/* RIGHT SIDE */
-
 .header-right {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .header .language {
-    height: 36px;
-    padding: 0 14px;
+  height: 36px;
+  padding: 0 14px;
 
-    background: rgba(0, 0, 0, .6);
-    color: white;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
 
-    border: 1px solid rgba(255, 255, 255, .5);
-    border-radius: 4px;
-
-    font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  font-size: 16px;
 }
 
-
-/* DEMO BUTTON */
-
 .sign-in {
-    height: 32px;
-    padding: 0 16px;
+  height: 32px;
+  padding: 0 16px;
 
-    background: #e50914;
-    color: white;
+  background: #e50914;
+  color: white;
 
-    border-radius: 4px;
+  border-radius: 4px;
+  font-size: 14px;
 
-    font-size: 14px;
-    font-weight: 600;
-
-    transition: .2s;
+  font-weight: 600;
+  transition: 0.2s;
 }
 
 .sign-in:hover {
-    background: #c11119;
+  background: #c11119;
 }
-
-
-/* TABLET */
 
 @media (max-width: 768px) {
+  .header-container {
+    padding: 20px 18px;
+  }
 
-    .header-container {
-        padding: 20px 18px;
-    }
+  .Logo {
+    font-size: 28px;
+  }
 
-    .Logo {
-        font-size: 28px;
-    }
+  .header .language {
+    height: 32px;
+    font-size: 13px;
+    padding: 0 10px;
+  }
 
-    .header .language {
-        height: 32px;
-        font-size: 13px;
-        padding: 0 10px;
-    }
+  .sign-in {
+    height: 32px;
+    padding: 0 12px;
+    font-size: 13px;
+  }
 
-    .sign-in {
-        height: 32px;
-        padding: 0 12px;
-        font-size: 13px;
-    }
-
-    .header-right {
-        gap: 8px;
-    }
-
+  .header-right {
+    gap: 8px;
+  }
 }
-
 
 /* MOBILE */
 
 @media (max-width: 480px) {
+  .header-container {
+    padding: 16px;
+  }
 
-    .header-container {
-        padding: 16px;
-    }
+  .Logo {
+    font-size: 24px;
+  }
 
-    .Logo {
-        font-size: 24px;
-    }
+  .header .language {
+    width: 110px;
+    font-size: 12px;
+  }
 
-    .header .language {
-        width: 110px;
-        font-size: 12px;
-    }
-
-    .sign-in {
-        padding: 0 10px;
-        font-size: 12px;
-    }
-
+  .sign-in {
+    padding: 0 10px;
+    font-size: 12px;
+  }
 }

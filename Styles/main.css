@@ -1,333 +1,327 @@
 .page-2 {
-    background: #000;
-    padding: 70px 0;
+  background: #000;
+  padding: 70px 0;
 }
 
 .page-2 h2 {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .moviez {
-    display: flex;
-    gap: 50px;
-  
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding-bottom: 10px;
+  display: flex;
+  gap: 50px;
+
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
 }
 
 .moviez::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .movie-card {
-    position: relative;
-    min-width: 240px;
-  
-    transition: .3s;
-    cursor: pointer;
+  position: relative;
+  min-width: 240px;
+
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .movie-card:hover {
-    transform: scale(1.06);
+  transform: scale(1.06);
 }
 
 .movie-card img {
-    height: 290px;
-    width: 250px;
-    border-radius: 10px;
+  height: 290px;
+  width: 250px;
+  border-radius: 10px;
 }
 
 .ranking {
-    position: absolute;
-    left: -1px;
-  
-    bottom: 10px;
-    font-size: 90px;
-  
-    font-weight: 900;
-    color: rgb(65, 2, 172);
-  
-    -webkit-text-stroke: 2px rgb(0, 0, 0);
-    line-height: 1;
+  position: absolute;
+  left: -1px;
+
+  bottom: 10px;
+  font-size: 90px;
+
+  font-weight: 900;
+  color: rgb(65, 2, 172);
+
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+  line-height: 1;
 }
 
-.warning{
-    color: red;
-    font-size: 20px;
-    margin: 30px 0 0 0;
+.warning {
+  color: red;
+  font-size: 20px;
+  margin: 30px 0 0 0;
 }
 
 .reasons {
-    background: #000;
-    padding: 60px 0;
-    margin-bottom: 10px;
+  background: #000;
+  padding: 60px 0;
+  margin-bottom: 10px;
 }
 
 .reasons h2 {
-    color: white;
-    font-size: 32px;
-    margin-bottom: 25px;
+  color: white;
+  font-size: 32px;
+  margin-bottom: 25px;
 }
 
 .reasons-2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 .actual-reasons {
-    background: linear-gradient(135deg, #192247, #210e17);
-    border-radius: 18px;
-  
-    padding: 24px;
-    min-height: 300px;
-    position: relative;
-    margin-top: 20px;
+  background: linear-gradient(135deg, #192247, #210e17);
+  border-radius: 18px;
+
+  padding: 24px;
+  min-height: 300px;
+
+  position: relative;
+  margin-top: 20px;
 }
 
 .actual-reasons h3 {
-    color: white;
-    font-size: 24px;
-    margin-bottom: 15px;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 15px;
 }
 
 .actual-reasons p {
-    color: #d1d5db;
-    font-size: 16px;
-    line-height: 1.6;
+  color: #d1d5db;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-/* ========================================
-   FAQ SECTION
-======================================== */
-
 .faq-section {
-    background: #000;
-    padding: 70px 0;
+  background: #000;
+  padding: 70px 0;
 }
 
 .faq-section h2 {
-    color: #fff;
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 30px;
+  color: #fff;
+  font-size: 32px;
+
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .faq-list {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  gap: 8px;
 }
 
 .faq-btn {
-    width: 100%;
-    min-height: 70px;
+  width: 100%;
+  min-height: 70px;
 
-    padding: 20px 24px;
+  padding: 20px 24px;
+  background: #2d2d2d;
 
-    background: #2d2d2d;
-    color: #fff;
+  color: #fff;
+  display: flex;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 
-    text-align: left;
-    font-size: 24px;
-
-    cursor: pointer;
+  text-align: left;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 .faq-btn:hover {
-    background: #414141;
+  background: #414141;
 }
 
 .faq-btn span:first-child {
-    flex: 1;
+  flex: 1;
 }
 
 .plus {
-    flex-shrink: 0;
-    margin-left: 20px;
+  flex-shrink: 0;
+  margin-left: 20px;
 
-    font-size: 50px;
-    font-weight: 200;
-    line-height: 1;
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 1;
 }
 
+@media (max-width: 768px) {
+  .page-2 {
+    padding: 50px 0;
+  }
 
-@media (max-width:768px) {
+  .page-2 h2,
+  .reasons h2 {
+    font-size: 28px;
+  }
 
-    .page-2 {
-        padding: 50px 0;
-    }
+  .moviez {
+    gap: 16px;
+  }
 
-    .page-2 h2,
-    .reasons h2 {
-        font-size: 28px;
-    }
+  .movie-card {
+    min-width: 140px;
+  }
 
-    .moviez {
-        gap: 16px;
-    }
+  .movie-card img {
+    width: 140px;
+    height: 200px;
+  }
 
-    .movie-card {
-        min-width: 140px;
-    }
+  .ranking {
+    font-size: 70px;
+    left: -14px;
+  }
 
-    .movie-card img {
-        width: 140px;
-        height: 200px;
-    }
+  .reasons-2 {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
 
-    .ranking {
-        font-size: 70px;
-        left: -14px;
-    }
+  .actual-reasons {
+    min-height: 220px;
+    padding: 20px;
+  }
 
-    .reasons-2 {
-        grid-template-columns: 1fr 1fr;
-        gap: 16px;
-    }
+  .actual-reasons h3 {
+    font-size: 20px;
+  }
 
-    .actual-reasons {
-        min-height: 220px;
-        padding: 20px;
-    }
+  .actual-reasons p {
+    font-size: 15px;
+  }
 
-    .actual-reasons h3 {
-        font-size: 20px;
-    }
+  .faq-section {
+    padding: 50px 0;
+  }
 
-    .actual-reasons p {
-        font-size: 15px;
-    }
+  .faq-section h2 {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
 
-    .faq-section {
-        padding: 50px 0;
-    }
+  .faq-btn {
+    min-height: 64px;
+    padding: 20px;
+    font-size: 20px;
+  }
 
-    .faq-section h2 {
-        font-size: 28px;
-        margin-bottom: 24px;
-    }
-
-    .faq-btn {
-        min-height: 64px;
-        padding: 20px;
-        font-size: 20px;
-    }
-
-    .plus {
-        font-size: 40px;
-    }
+  .plus {
+    font-size: 40px;
+  }
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
+  .container-2 {
+    padding: 0 20px;
+  }
 
-    .container-2 {
-        padding: 0 20px;
-    }
+  .page-2 {
+    padding: 40px 0;
+  }
 
-    .page-2 {
-        padding: 40px 0;
-    }
+  .page-2 h2,
+  .reasons h2 {
+    font-size: 24px;
+  }
 
-    .page-2 h2,
-    .reasons h2 {
-        font-size: 24px;
-    }
+  .moviez {
+    gap: 12px;
+  }
 
-    .moviez {
-        gap: 12px;
-    }
+  .movie-card {
+    min-width: 110px;
+  }
 
-    .movie-card {
-        min-width: 110px;
-    }
+  .movie-card img {
+    width: 110px;
+    height: 160px;
+    border-radius: 8px;
+  }
 
-    .movie-card img {
-        width: 110px;
-        height: 160px;
-        border-radius: 8px;
-    }
+  .ranking {
+    font-size: 56px;
+    left: -10px;
+    bottom: 8px;
+  }
 
-    .ranking {
-        font-size: 56px;
-        left: -10px;
-        bottom: 8px;
-    }
+  .reasons-2 {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
 
-    .reasons-2 {
-        grid-template-columns: 1fr;
-        gap: 14px;
-    }
+  .actual-reasons {
+    min-height: 180px;
+    padding: 18px;
+    border-radius: 16px;
+  }
 
-    .actual-reasons {
-        min-height: 180px;
-        padding: 18px;
-        border-radius: 16px;
-    }
+  .actual-reasons h3 {
+    font-size: 20px;
+  }
 
-    .actual-reasons h3 {
-        font-size: 20px;
-    }
+  .actual-reasons p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
 
-    .actual-reasons p {
-        font-size: 14px;
-        line-height: 1.5;
-    }
+  .faq-section {
+    padding: 40px 0;
+  }
 
-    .faq-section {
-        padding: 40px 0;
-    }
+  .faq-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
 
-    .faq-section h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
+  .faq-btn {
+    min-height: 58px;
+    padding: 17px 18px;
+    font-size: 18px;
+  }
 
-    .faq-btn {
-        min-height: 58px;
-        padding: 17px 18px;
-        font-size: 18px;
-    }
-
-    .plus {
-        font-size: 34px;
-    }
+  .plus {
+    font-size: 34px;
+  }
 }
 
-@media (max-width:400px) {
+@media (max-width: 400px) {
+  .movie-card {
+    min-width: 100px;
+  }
 
-    .movie-card {
-        min-width: 100px;
-    }
+  .movie-card img {
+    width: 100px;
+    height: 145px;
+  }
 
-    .movie-card img {
-        width: 100px;
-        height: 145px;
-    }
+  .ranking {
+    font-size: 48px;
+  }
 
-    .ranking {
-        font-size: 48px;
-    }
+  .actual-reasons {
+    min-height: 170px;
+  }
 
-    .actual-reasons {
-        min-height: 170px;
-    }
+  .faq-btn {
+    min-height: 54px;
+    padding: 15px 16px;
+    font-size: 16px;
+  }
 
-    .faq-btn {
-        min-height: 54px;
-        padding: 15px 16px;
-        font-size: 16px;
-    }
-
-    .plus {
-        font-size: 30px;
-    }
+  .plus {
+    font-size: 30px;
+  }
 }

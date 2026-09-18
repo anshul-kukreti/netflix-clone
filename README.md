@@ -3,9 +3,8 @@ Netflix Clone 🎬
 A responsive Netflix homepage clone built with HTML and CSS, featuring a modern layout, navigation bar, movie sections, and a clean streaming-platform UI.
 
 ✨ Features
-
-- Responsive Netflix-style homepage
-- Navigation bar with Netflix branding
+- Frontend Portfolio / Demo Project
+- Responsive homepage
 - Hero/banner section
 - Movie and content sections
 - Clean and modern UI
