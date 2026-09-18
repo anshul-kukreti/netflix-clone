@@ -54,9 +54,16 @@
     line-height: 1;
 }
 
+.warning{
+    color: red;
+    font-size: 20px;
+    margin: 30px 0 0 0;
+}
+
 .reasons {
     background: #000;
     padding: 60px 0;
+    margin-bottom: 10px;
 }
 
 .reasons h2 {
@@ -78,6 +85,7 @@
     padding: 24px;
     min-height: 300px;
     position: relative;
+    margin-top: 20px;
 }
 
 .actual-reasons h3 {
@@ -91,6 +99,66 @@
     font-size: 16px;
     line-height: 1.6;
 }
+
+/* ========================================
+   FAQ SECTION
+======================================== */
+
+.faq-section {
+    background: #000;
+    padding: 70px 0;
+}
+
+.faq-section h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.faq-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.faq-btn {
+    width: 100%;
+    min-height: 70px;
+
+    padding: 20px 24px;
+
+    background: #2d2d2d;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: left;
+    font-size: 24px;
+
+    cursor: pointer;
+}
+
+.faq-btn:hover {
+    background: #414141;
+}
+
+.faq-btn span:first-child {
+    flex: 1;
+}
+
+.plus {
+    flex-shrink: 0;
+    margin-left: 20px;
+
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 1;
+}
+
 
 @media (max-width:768px) {
 
@@ -137,6 +205,25 @@
 
     .actual-reasons p {
         font-size: 15px;
+    }
+
+    .faq-section {
+        padding: 50px 0;
+    }
+
+    .faq-section h2 {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+
+    .faq-btn {
+        min-height: 64px;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .plus {
+        font-size: 40px;
     }
 }
 
@@ -194,6 +281,25 @@
         font-size: 14px;
         line-height: 1.5;
     }
+
+    .faq-section {
+        padding: 40px 0;
+    }
+
+    .faq-section h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .faq-btn {
+        min-height: 58px;
+        padding: 17px 18px;
+        font-size: 18px;
+    }
+
+    .plus {
+        font-size: 34px;
+    }
 }
 
 @media (max-width:400px) {
@@ -213,5 +319,15 @@
 
     .actual-reasons {
         min-height: 170px;
+    }
+
+    .faq-btn {
+        min-height: 54px;
+        padding: 15px 16px;
+        font-size: 16px;
+    }
+
+    .plus {
+        font-size: 30px;
     }
 }
